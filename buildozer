@@ -1,0 +1,15 @@
+[app]
+title = VoiceLock
+package.name = voicelockapp
+package.domain = org.najif
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas
+version = 0.1
+requirements = python3,kivy
+
+# Izinin Android na musamman don rufe garkuwar fuskar waya da daukar murya
+android.permissions = RECORD_AUDIO, SYSTEM_ALERT_WINDOW, RECEIVE_BOOT_COMPLETED
+
+orientation = portrait
+fullscreen = 1
+android.archs = arm64-v8a
